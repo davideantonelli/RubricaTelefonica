@@ -55,7 +55,7 @@ public class Rubrica {
 	 */
 	void rimuoviContatto(String nome, String cognome) {
 		boolean rimosso=false;
-		Iterator<Contatto> cont = this.Contatti.iterator();
+		Iterator<Contatto> cont = this.Contatti.iterator(); // creo l'iteratore di tipo Contatto associato all' ArrayList
 		while (cont.hasNext() && !rimosso) {
 			/*
 			 * scorro il successivo contatto
